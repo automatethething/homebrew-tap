@@ -1,7 +1,7 @@
 class TwentyOnePins < Formula
   desc "Local-first LLM key custody, policy, and routing gateway"
   homepage "https://21pins.com"
-  version "0.1.1"
+  license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
